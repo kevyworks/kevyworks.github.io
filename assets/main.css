@@ -1,0 +1,103 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(-45deg, #8c4bff, #000094, #1B071C);
+    background-size: 400% 400%;
+    flex-direction: row;
+    animation: gradient 15s ease infinite;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.content > .logo {
+    background-image: url("ktext.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 300px;
+    height: 100px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.content > .social {
+    display: flex;
+    flex-direction: row;
+    width: 200px;
+    height: 30px;
+    justify-content: center;
+    align-content: baseline;
+}
+
+.content > .social a {
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+    background-clip: border-box;
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    filter: invert(1);
+    opacity: 0;
+    margin: 0 5px;
+    width: 20px;
+    height: 20px;
+    overflow: hidden;
+}
+
+.content:hover > .social a {
+    opacity: 1;
+}
+
+.content > .social .github {
+    background-image: url('github.svg');
+}
+
+.content > .social .codepen {
+    background-image: url('codepen.svg');
+}
+
+.content > .social .youtube {
+    background-image: url('youtube.svg');
+}
+
+footer {
+    unicode-bidi: bidi-override;
+    direction: rtl;
+    color: white;
+    font-size: 10px;
+    letter-spacing: 2px;
+    text-align: right;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    padding: 0 15px 15px 0;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0 50%;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .content > .logo {
+        background-image: url("ksm.svg");
+    }
+}
