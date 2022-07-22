@@ -73,6 +73,10 @@ body {
     background-image: url('youtube.svg');
 }
 
+.content > .social .kevyworks {
+    background-image: url('ksm.svg');
+}
+
 footer {
     unicode-bidi: bidi-override;
     direction: rtl;
