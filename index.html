@@ -64,8 +64,8 @@
   .reveal{ opacity:0; transform:translateY(28px); transition:opacity .7s cubic-bezier(.16,.8,.3,1), transform .7s cubic-bezier(.16,.8,.3,1); }
   .reveal.in{ opacity:1; transform:translateY(0); }
 
-  .icon-dual{ position:relative; width:42px; height:42px; display:inline-flex; align-items:center; justify-content:center; }
-  .icon-dual i{ position:absolute; font-size:26px; }
+  .icon-dual{ display: flex; flex-direction: column; position:relative; width:42px; height:42px; display:inline-flex; align-items:center; align-items: center; justify-content:center; }
+  .icon-dual i{ display: flex; position:absolute; font-size:40px; }
   .icon-dual i.back{ color:#ff8a3d; opacity:.28; transform:translate(3px,3px) scale(1.18); }
   .icon-dual i.front{ color:#ffb173; }
 
@@ -118,6 +118,9 @@
         <a href="#certificates" data-target="certificates"
           class="tab flex items-center gap-2 font-mono text-[12.5px] text-text2 px-4 py-2.5 rounded-t-md border border-transparent border-b-0 whitespace-nowrap hover:text-text0 hover:bg-bg2 transition"><span
             class="tabdot w-[5px] h-[5px] rounded-full bg-text2"></span>certs.md</a>
+        <a href="#education" data-target="links"
+          class="tab flex items-center gap-2 font-mono text-[12.5px] text-text2 px-4 py-2.5 rounded-t-md border border-transparent border-b-0 whitespace-nowrap hover:text-text0 hover:bg-bg2 transition"><span
+            class="tabdot w-[5px] h-[5px] rounded-full bg-text2"></span>education.yml</a>
         <a href="#contact" data-target="contact"
           class="tab flex items-center gap-2 font-mono text-[12.5px] text-text2 px-4 py-2.5 rounded-t-md border border-transparent border-b-0 whitespace-nowrap hover:text-text0 hover:bg-bg2 transition"><span
             class="tabdot w-[5px] h-[5px] rounded-full bg-text2"></span>contact.sh</a>
@@ -152,6 +155,8 @@
         class="mobitab font-mono text-sm py-3.5 border-b border-linesoft text-text1">projects/</a>
       <a href="#certificates" data-target="certificates"
         class="mobitab font-mono text-sm py-3.5 border-b border-linesoft text-text1">certs.md</a>
+      <a href="#education" data-target="education"
+        class="mobitab font-mono text-sm py-3.5 border-b border-linesoft text-text1">education.yml</a>
       <a href="#contact" data-target="contact"
         class="mobitab font-mono text-sm py-3.5 border-b border-linesoft text-text1">contact.sh</a>
       <a id="cvDownloadMobile" href="#" download="Kevinralph_Tenorio_CV.pdf"
@@ -224,8 +229,7 @@
         <div class="reveal space-y-4 text-text1 text-[15.5px]">
           <p>I'm a full-stack developer based in the Philippines with roots going back to 2009, when I started as a
             junior developer building municipal billing systems. Since then I've worked remotely with teams across the
-            US, UK, and Australia — shipping everything from WordPress e-commerce plugins to bespoke POS systems and
-            Laravel platforms.</p>
+            US, UK, and Australia — shipping everything from WordPress, custom Web Apps to bespoke POS systems and Laravel platforms.</p>
           <p>My work spans the full stack: PHP and Laravel on the backend, Gatsby and React on the front, with a good
             deal of server maintenance, API integrations, and DevOps sprinkled throughout. I care about clean,
             documented code and interfaces that stay out of the user's way.</p>
@@ -248,31 +252,31 @@
           <div class="grid grid-cols-[110px_1fr] sm:grid-cols-[130px_1fr] items-center gap-3.5">
             <span class="text-[13px] text-text1 font-mono">Desktop Dev</span>
             <div class="h-1.5 bg-bg2 rounded border border-line overflow-hidden">
-              <div class="bar-fill h-full w-0 rounded bg-gradient-to-r from-orange-dim to-orange" data-width="82"></div>
+              <div class="bar-fill h-full w-0 rounded bg-gradient-to-r from-orange-dim to-orange" data-width="95"></div>
             </div>
           </div>
           <div class="grid grid-cols-[110px_1fr] sm:grid-cols-[130px_1fr] items-center gap-3.5">
             <span class="text-[13px] text-text1 font-mono">Server Maint.</span>
             <div class="h-1.5 bg-bg2 rounded border border-line overflow-hidden">
-              <div class="bar-fill h-full w-0 rounded bg-gradient-to-r from-orange-dim to-orange" data-width="88"></div>
+              <div class="bar-fill h-full w-0 rounded bg-gradient-to-r from-orange-dim to-orange" data-width="90"></div>
             </div>
           </div>
           <div class="grid grid-cols-[110px_1fr] sm:grid-cols-[130px_1fr] items-center gap-3.5">
             <span class="text-[13px] text-text1 font-mono">Tech Support</span>
             <div class="h-1.5 bg-bg2 rounded border border-line overflow-hidden">
-              <div class="bar-fill h-full w-0 rounded bg-gradient-to-r from-orange-dim to-orange" data-width="90"></div>
+              <div class="bar-fill h-full w-0 rounded bg-gradient-to-r from-orange-dim to-orange" data-width="96"></div>
             </div>
           </div>
           <div class="grid grid-cols-[110px_1fr] sm:grid-cols-[130px_1fr] items-center gap-3.5">
             <span class="text-[13px] text-text1 font-mono">Docs</span>
             <div class="h-1.5 bg-bg2 rounded border border-line overflow-hidden">
-              <div class="bar-fill h-full w-0 rounded bg-gradient-to-r from-orange-dim to-orange" data-width="85"></div>
+              <div class="bar-fill h-full w-0 rounded bg-gradient-to-r from-orange-dim to-orange" data-width="93"></div>
             </div>
           </div>
           <div class="grid grid-cols-[110px_1fr] sm:grid-cols-[130px_1fr] items-center gap-3.5">
             <span class="text-[13px] text-text1 font-mono">Landing Pages</span>
             <div class="h-1.5 bg-bg2 rounded border border-line overflow-hidden">
-              <div class="bar-fill h-full w-0 rounded bg-gradient-to-r from-orange-dim to-orange" data-width="93"></div>
+              <div class="bar-fill h-full w-0 rounded bg-gradient-to-r from-orange-dim to-orange" data-width="100"></div>
             </div>
           </div>
         </div>
@@ -289,38 +293,37 @@
       <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
         <div
           class="reveal bg-bg1 border border-line rounded-xl p-6 hover:-translate-y-1 hover:border-orange-dim hover:shadow-[0_16px_40px_-14px_rgba(255,138,61,0.18)] transition">
-          <div class="icon-dual mb-4"><i class="lni lni-code back"></i><i class="lni lni-code front"></i></div>
+          <div class="icon-dual mb-4"><i class="lni lni-code-1"></i></div>
           <h3 class="font-display text-base mb-2">Languages / Frameworks</h3>
-          <div class="text-[13px] text-text2 leading-7">PHP · Laravel · C# · JavaScript · Bash · HTML/CSS</div>
+          <div class="text-[13px] text-text2 leading-7">PHP · Laravel · C# · JavaScript · Bash · HTML/CSS · React</div>
         </div>
         <div
           class="reveal bg-bg1 border border-line rounded-xl p-6 hover:-translate-y-1 hover:border-orange-dim hover:shadow-[0_16px_40px_-14px_rgba(255,138,61,0.18)] transition">
-          <div class="icon-dual mb-4"><i class="lni lni-layout back"></i><i class="lni lni-layout front"></i></div>
+          <div class="icon-dual mb-4"><i class="lni lni-brush-1-rotated"></i></div>
           <h3 class="font-display text-base mb-2">Frontend / UI</h3>
           <div class="text-[13px] text-text2 leading-7">Gatsby · WordPress · Figma · Email Templates</div>
         </div>
         <div
           class="reveal bg-bg1 border border-line rounded-xl p-6 hover:-translate-y-1 hover:border-orange-dim hover:shadow-[0_16px_40px_-14px_rgba(255,138,61,0.18)] transition">
-          <div class="icon-dual mb-4"><i class="lni lni-database back"></i><i class="lni lni-database front"></i></div>
+          <div class="icon-dual mb-4"><i class="lni lni-database-2"></i></div>
           <h3 class="font-display text-base mb-2">Backend</h3>
-          <div class="text-[13px] text-text2 leading-7">MySQL · API Integrations · Xero · USPS · Stripe · Twilio</div>
+          <div class="text-[13px] text-text2 leading-7">MySQL · API Integrations · REST API · Xero · USPS · Stripe · Twilio</div>
         </div>
         <div
           class="reveal bg-bg1 border border-line rounded-xl p-6 hover:-translate-y-1 hover:border-orange-dim hover:shadow-[0_16px_40px_-14px_rgba(255,138,61,0.18)] transition">
-          <div class="icon-dual mb-4"><i class="lni lni-cloud-network back"></i><i
-              class="lni lni-cloud-network front"></i></div>
+          <div class="icon-dual mb-4"><i class="lni lni-cloud-iot-2"></i></div>
           <h3 class="font-display text-base mb-2">DevOps / Tools</h3>
           <div class="text-[13px] text-text2 leading-7">AWS · DigitalOcean · Linode · Git/SVN · Vercel</div>
         </div>
         <div
           class="reveal bg-bg1 border border-line rounded-xl p-6 hover:-translate-y-1 hover:border-orange-dim hover:shadow-[0_16px_40px_-14px_rgba(255,138,61,0.18)] transition">
-          <div class="icon-dual mb-4"><i class="lni lni-desktop back"></i><i class="lni lni-desktop front"></i></div>
+          <div class="icon-dual mb-4"><i class="lni lni-layers-1"></i></div>
           <h3 class="font-display text-base mb-2">OS Environments</h3>
           <div class="text-[13px] text-text2 leading-7">Windows · macOS · Ubuntu · CentOS</div>
         </div>
         <div
           class="reveal bg-bg1 border border-line rounded-xl p-6 hover:-translate-y-1 hover:border-orange-dim hover:shadow-[0_16px_40px_-14px_rgba(255,138,61,0.18)] transition">
-          <div class="icon-dual mb-4"><i class="lni lni-shield back"></i><i class="lni lni-shield front"></i></div>
+          <div class="icon-dual mb-4"><i class="lni lni-shield-2"></i></div>
           <h3 class="font-display text-base mb-2">Focus Areas</h3>
           <div class="text-[13px] text-text2 leading-7">Secure architecture · Performance tuning · UX polish</div>
         </div>
@@ -342,7 +345,8 @@
         <div class="reveal relative">
           <div
             class="absolute -left-8 sm:-left-9 top-1 w-[18px] h-[18px] rounded-full bg-bg0 border-2 border-orange flex items-center justify-center shadow-[0_0_0_4px_rgba(255,138,61,0.18)]">
-            <span class="w-1.5 h-1.5 rounded-full bg-orange"></span></div>
+            <span class="w-1.5 h-1.5 rounded-full bg-orange"></span>
+          </div>
           <div class="font-mono text-xs text-orange mb-1.5">MAY 2025 — JUL 2026</div>
           <div class="bg-bg1 border border-line rounded-xl p-6 hover:border-orange-dim transition">
             <h3 class="font-display text-lg mb-0.5">Full Stack Developer</h3>
@@ -364,7 +368,8 @@
         <div class="reveal relative">
           <div
             class="absolute -left-8 sm:-left-9 top-1 w-[18px] h-[18px] rounded-full bg-bg0 border-2 border-orange-dim flex items-center justify-center">
-            <span class="w-1.5 h-1.5 rounded-full bg-orange"></span></div>
+            <span class="w-1.5 h-1.5 rounded-full bg-orange"></span>
+          </div>
           <div class="font-mono text-xs text-orange mb-1.5">MAR 2023 — JUL 2023</div>
           <div class="bg-bg1 border border-line rounded-xl p-6 hover:border-orange-dim transition">
             <h3 class="font-display text-lg mb-0.5">Product Development Engineer</h3>
@@ -382,7 +387,8 @@
         <div class="reveal relative">
           <div
             class="absolute -left-8 sm:-left-9 top-1 w-[18px] h-[18px] rounded-full bg-bg0 border-2 border-orange-dim flex items-center justify-center">
-            <span class="w-1.5 h-1.5 rounded-full bg-orange"></span></div>
+            <span class="w-1.5 h-1.5 rounded-full bg-orange"></span>
+          </div>
           <div class="font-mono text-xs text-orange mb-1.5">AUG 2022 — FEB 2023</div>
           <div class="bg-bg1 border border-line rounded-xl p-6 hover:border-orange-dim transition">
             <h3 class="font-display text-lg mb-0.5">Full Stack Developer</h3>
@@ -402,7 +408,8 @@
         <div class="reveal relative">
           <div
             class="absolute -left-8 sm:-left-9 top-1 w-[18px] h-[18px] rounded-full bg-bg0 border-2 border-orange-dim flex items-center justify-center">
-            <span class="w-1.5 h-1.5 rounded-full bg-orange"></span></div>
+            <span class="w-1.5 h-1.5 rounded-full bg-orange"></span>
+          </div>
           <div class="font-mono text-xs text-orange mb-1.5">MAR 2016 — NOV 2023</div>
           <div class="bg-bg1 border border-line rounded-xl p-6 hover:border-orange-dim transition">
             <h3 class="font-display text-lg mb-0.5">Full Stack Software Engineer</h3>
@@ -420,7 +427,8 @@
         <div class="reveal relative">
           <div
             class="absolute -left-8 sm:-left-9 top-1 w-[18px] h-[18px] rounded-full bg-bg0 border-2 border-orange-dim flex items-center justify-center">
-            <span class="w-1.5 h-1.5 rounded-full bg-orange"></span></div>
+            <span class="w-1.5 h-1.5 rounded-full bg-orange"></span>
+          </div>
           <div class="font-mono text-xs text-orange mb-1.5">NOV 2014 — MAR 2016</div>
           <div class="bg-bg1 border border-line rounded-xl p-6 hover:border-orange-dim transition">
             <h3 class="font-display text-lg mb-0.5">WordPress Developer</h3>
@@ -438,7 +446,8 @@
         <div class="reveal relative">
           <div
             class="absolute -left-8 sm:-left-9 top-1 w-[18px] h-[18px] rounded-full bg-bg0 border-2 border-orange-dim flex items-center justify-center">
-            <span class="w-1.5 h-1.5 rounded-full bg-orange"></span></div>
+            <span class="w-1.5 h-1.5 rounded-full bg-orange"></span>
+          </div>
           <div class="font-mono text-xs text-orange mb-1.5">OCT 2014 — NOV 2015</div>
           <div class="bg-bg1 border border-line rounded-xl p-6 hover:border-orange-dim transition">
             <h3 class="font-display text-lg mb-0.5">Software Engineer</h3>
@@ -456,7 +465,8 @@
         <div class="reveal relative">
           <div
             class="absolute -left-8 sm:-left-9 top-1 w-[18px] h-[18px] rounded-full bg-bg0 border-2 border-orange-dim flex items-center justify-center">
-            <span class="w-1.5 h-1.5 rounded-full bg-orange"></span></div>
+            <span class="w-1.5 h-1.5 rounded-full bg-orange"></span>
+          </div>
           <div class="font-mono text-xs text-orange mb-1.5">AUG 2010 — MAR 2013</div>
           <div class="bg-bg1 border border-line rounded-xl p-6 hover:border-orange-dim transition">
             <h3 class="font-display text-lg mb-0.5">Software Developer</h3>
@@ -476,7 +486,8 @@
         <div class="reveal relative">
           <div
             class="absolute -left-8 sm:-left-9 top-1 w-[18px] h-[18px] rounded-full bg-bg0 border-2 border-orange-dim flex items-center justify-center">
-            <span class="w-1.5 h-1.5 rounded-full bg-orange"></span></div>
+            <span class="w-1.5 h-1.5 rounded-full bg-orange"></span>
+          </div>
           <div class="font-mono text-xs text-orange mb-1.5">APR 2009 — SEP 2009</div>
           <div class="bg-bg1 border border-line rounded-xl p-6 hover:border-orange-dim transition">
             <h3 class="font-display text-lg mb-0.5">Junior Software Developer</h3>
@@ -508,7 +519,7 @@
           <div
             class="absolute top-0 left-0 right-0 h-[3px] scale-x-0 group-hover:scale-x-100 origin-left transition-transform duration-300 bg-gradient-to-r from-orange-dim to-orange">
           </div>
-          <div class="icon-dual mb-4"><i class="lni lni-brain back"></i><i class="lni lni-brain front"></i></div>
+          <div class="icon-dual mb-4"><i class="lni lni-hand-shake"></i></div>
           <h3 class="font-display text-lg mb-1">My Core Motivations Platform</h3>
           <div class="font-mono text-xs text-orange mb-3.5">RED1 IT</div>
           <p class="text-text1 text-sm mb-4">An interactive personality quiz and role-matching tool built with Laravel,
@@ -522,8 +533,7 @@
           <div
             class="absolute top-0 left-0 right-0 h-[3px] scale-x-0 group-hover:scale-x-100 origin-left transition-transform duration-300 bg-gradient-to-r from-orange-dim to-orange">
           </div>
-          <div class="icon-dual mb-4"><i class="lni lni-shopping-basket back"></i><i
-              class="lni lni-shopping-basket front"></i></div>
+          <div class="icon-dual mb-4"><i class="lni lni-cash-app"></i></div>
           <h3 class="font-display text-lg mb-1">BitPOS — Point of Sale System</h3>
           <div class="font-mono text-xs text-orange mb-3.5">LiveHelp4Us</div>
           <p class="text-text1 text-sm mb-4">A local point-of-sale system built from scratch in VSE C# and PHP, using
@@ -546,7 +556,7 @@
       <div class="flex flex-col gap-3.5">
         <div
           class="reveal grid grid-cols-1 sm:grid-cols-[auto_1fr_auto] gap-3 sm:gap-5 sm:items-center bg-bg1 border border-line rounded-lg px-6 py-4.5 hover:border-orange-dim transition py-4">
-          <div class="icon-dual"><i class="lni lni-bar-chart back"></i><i class="lni lni-bar-chart front"></i></div>
+          <div class="icon-dual !hidden md:!flex"><i class="lni lni-microsoft"></i></div>
           <div>
             <h4 class="font-display text-[15.5px] mb-0.5">Microsoft Power BI</h4>
             <div class="text-xs text-text2">Exodus Experts — 3-day course, verified authenticity code 101634515</div>
@@ -555,7 +565,7 @@
         </div>
         <div
           class="reveal grid grid-cols-1 sm:grid-cols-[auto_1fr_auto] gap-3 sm:gap-5 sm:items-center bg-bg1 border border-line rounded-lg px-6 py-4.5 hover:border-orange-dim transition py-4">
-          <div class="icon-dual"><i class="lni lni-trophy back"></i><i class="lni lni-trophy front"></i></div>
+          <div class="icon-dual !hidden md:!flex"><i class="lni lni-php"></i></div>
           <div>
             <h4 class="font-display text-[15.5px] mb-0.5">PHP Innovation Award — Lumen API Pure MVC Multi-Core Framework
             </h4>
@@ -565,7 +575,7 @@
         </div>
         <div
           class="reveal grid grid-cols-1 sm:grid-cols-[auto_1fr_auto] gap-3 sm:gap-5 sm:items-center bg-bg1 border border-line rounded-lg px-6 py-4.5 hover:border-orange-dim transition py-4">
-          <div class="icon-dual"><i class="lni lni-trophy back"></i><i class="lni lni-trophy front"></i></div>
+          <div class="icon-dual !hidden md:!flex"><i class="lni lni-php"></i></div>
           <div>
             <h4 class="font-display text-[15.5px] mb-0.5">PHP Innovation Award — Blade Component Factory</h4>
             <div class="text-xs text-text2">Adds component support to Laravel 5.3 Blade templating</div>
@@ -574,7 +584,7 @@
         </div>
         <div
           class="reveal grid grid-cols-1 sm:grid-cols-[auto_1fr_auto] gap-3 sm:gap-5 sm:items-center bg-bg1 border border-line rounded-lg px-6 py-4.5 hover:border-orange-dim transition py-4">
-          <div class="icon-dual"><i class="lni lni-trophy back"></i><i class="lni lni-trophy front"></i></div>
+          <div class="icon-dual !hidden md:!flex"><i class="lni lni-php"></i></div>
           <div>
             <h4 class="font-display text-[15.5px] mb-0.5">PHP Innovation Award — PHP "JavaScript-style" Object</h4>
             <div class="text-xs text-text2">Uses the __call magic method to bind "this" like a JS closure</div>
@@ -583,7 +593,7 @@
         </div>
         <div
           class="reveal grid grid-cols-1 sm:grid-cols-[auto_1fr_auto] gap-3 sm:gap-5 sm:items-center bg-bg1 border border-line rounded-lg px-6 py-4.5 hover:border-orange-dim transition py-4">
-          <div class="icon-dual"><i class="lni lni-certificate back"></i><i class="lni lni-certificate front"></i></div>
+          <div class="icon-dual !hidden md:!flex"><i class="lni lni-code-1"></i></div>
           <div>
             <h4 class="font-display text-[15.5px] mb-0.5">PowerBuilder Basics (SAP/Sybase)</h4>
             <div class="text-xs text-text2">gtz / GFA Consulting Group — iTAX developer course, Dumaguete, Negros
@@ -649,17 +659,38 @@
       <div class="flex flex-wrap gap-3.5">
         <div
           class="reveal flex flex-col items-center gap-2.5 bg-bg1 border border-line rounded-lg px-5 py-3.5 font-mono text-[13.5px] hover:-translate-y-1 hover:border-orange-dim transition">
-          <i class="lni lni-docsearch text-3xl"></i> Learning</div>
+          <i class="lni lni-docsearch hidden md:block text-3xl"></i> Learning
+        </div>
         <div
           class="reveal flex flex-col items-center gap-2.5 bg-bg1 border border-line rounded-lg px-5 py-3.5 font-mono text-[13.5px] hover:-translate-y-1 hover:border-orange-dim transition">
-          <i class="lni lni-game-pad-modern-1 text-3xl"></i> Gaming</div>
+          <i class="lni lni-game-pad-modern-1 hidden md:block text-3xl"></i> Gaming
+        </div>
         <div
           class="reveal flex flex-col items-center gap-2.5 bg-bg1 border border-line rounded-lg px-5 py-3.5 font-mono text-[13.5px] hover:-translate-y-1 hover:border-orange-dim transition">
-          <i class="lni lni-camera-movie-1 text-3xl"></i> Movies</div>
+          <i class="lni lni-camera-movie-1 hidden md:block text-3xl"></i> Movies
+        </div>
         <div
           class="reveal flex flex-col items-center gap-2.5 bg-bg1 border border-line rounded-lg px-5 py-3.5 font-mono text-[13.5px] hover:-translate-y-1 hover:border-orange-dim transition">
-          <i class="lni lni-apple-music text-3xl"></i> Music</div>
+          <i class="lni lni-apple-music hidden md:block text-3xl"></i> Music
+        </div>
       </div>
+
+      <div class="h-16"></div>
+      <div class="reveal font-mono text-[12.5px] text-orange flex items-center gap-2 mb-3"><span
+          class="text-text2">//</span> <span class="text-text2">~/links.log</span></div>
+      <h2 class="reveal font-display font-semibold text-3xl sm:text-4xl mb-10">Links</h2>
+      <div class="flex flex-col gap-2.5 md:flex-row md:gap-x-7">
+        <a href="https://github.com/kevyworks" target="_blank" rel="noopener"
+          class="inline-flex items-center gap-1.5 font-mono text-xs text-text0 hover:text-orange transition"><i
+            class="lni lni-arrow-angular-top-right"></i>github.com/kevyworks</a>
+        <a href="https://codepen.io/kevyworks/" target="_blank" rel="noopener"
+          class="inline-flex items-center gap-1.5 font-mono text-xs text-text0 hover:text-orange transition"><i
+            class="lni lni-arrow-angular-top-right"></i>codepen.io/kevyworks</a>
+        <a href="https://www.youtube.com/@kevyworks-gaming" target="_blank" rel="noopener"
+          class="inline-flex items-center gap-1.5 font-mono text-xs text-text0 hover:text-orange transition"><i
+            class="lni lni-arrow-angular-top-right"></i>youtube.com/@kevyworks-gaming</a>
+      </div>
+
     </div>
   </section>
 
@@ -674,26 +705,26 @@
           Laravel, Gatsby, and everything in between.</p>
         <div class="relative flex justify-center gap-4 flex-wrap mb-2 items-center">
           <a href="tel:+639626981370"
-            class="flex items-center gap-2 font-mono text-[13.5px] border border-line px-4.5 py-3 rounded-lg bg-bg0 hover:border-orange hover:text-orange-hi transition px-2.5"><i
-              class="lni lni-phone flex"></i> +63 962 698 1370</a>
+            class="flex w-full md:w-auto items-center gap-2 font-mono text-[13.5px] border border-line px-4.5 py-3 rounded-lg bg-bg0 hover:border-orange hover:text-orange-hi transition px-2.5"><i
+              class="lni lni-phone text-lg flex"></i> +63 962 698 1370</a>
           <a href="mailto:me@kevyworks.com"
-            class="flex items-center gap-2 font-mono text-[13.5px] border border-line px-4.5 py-3 rounded-lg bg-bg0 hover:border-orange hover:text-orange-hi transition px-2.5"><i
-              class="lni lni-envelope-1 flex"></i> me@kevyworks.com</a>
+            class="flex w-full md:w-auto items-center gap-2 font-mono text-[13.5px] border border-line px-4.5 py-3 rounded-lg bg-bg0 hover:border-orange hover:text-orange-hi transition px-2.5"><i
+              class="lni lni-envelope-1 text-lg flex"></i> me@kevyworks.com</a>
           <span
-            class="flex items-center gap-2 font-mono text-[13.5px] border border-line px-4.5 py-3 rounded-lg bg-bg0 px-2.5"><i
-              class="lni lni-map-marker-1 flex"></i> Philippines · Remote-friendly</span>
+            class="flex w-full text-left md:text-center md:w-auto items-center gap-2 font-mono text-[13.5px] border border-line px-4.5 py-3 rounded-lg bg-bg0 px-2.5"><i
+              class="lni lni-map-marker-1 text-lg flex"></i> Philippines · Remote</span>
         </div>
         <div class="relative mt-5">
           <a id="cvDownloadContact" href="#" download="Kevinralph_Tenorio_CV.pdf"
             class="inline-flex items-center gap-2 font-mono text-[13.5px] font-medium px-6 py-3.5 rounded-lg bg-orange text-bg0 hover:-translate-y-0.5 hover:shadow-glow transition"><i
-              class="lni lni-download-1"></i> Download Full CV (PDF)</a>
+              class="lni lni-download-1 flex"></i> Download Full CV (PDF)</a>
         </div>
       </div>
     </div>
   </section>
 
   <footer class="py-8 text-center font-mono text-xs text-text2">
-    built with <span class="text-orange">♥</span> and a lot of coffee · © 2026 Kevinralph Tenorio
+    built with <span class="text-orange">♥</span> · © 2026 Kevinralph Tenorio
   </footer>
 
   <script>
