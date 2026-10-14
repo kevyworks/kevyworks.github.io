@@ -40,6 +40,10 @@ jobs:
         run: npm ci
       - name: Build
         run: npm run build
+      - name: Copy assets folder to dist
+        run: |
+          mkdir -p dist
+          cp -r assets dist/
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
