@@ -1,0 +1,192 @@
+{
+  "skills": [
+    "React", "TypeScript", "JavaScript", "Gatsby", "Tailwind CSS",
+    "PHP", "Laravel", "Node.js", "MySQL", "RESTful APIs",
+    "AWS", "DigitalOcean", "Vercel", "Git", "WordPress", "Figma"
+  ],
+  "awards": [
+    "Lumen API Pure MVC Framework — PHP Innovation Award, 2018",
+    "Blade Component Factory — PHP Innovation Award, 2018",
+    "Microsoft Power BI — Exodus Experts, 2024"
+  ],
+  "products": [
+    {
+      "name": "Figma to Website Conversion",
+      "type": "Service",
+      "description": "I handle responsive layouting so your site looks great on every device, write clean, maintainable code.",
+      "tags": [
+        "Figma",
+        "Service"
+      ],
+      "image": "assets/figma-conversion.png",
+      "href": "https://contra.com/s/vP6FWYWN-figma-to-website-conversion"
+    },
+    {
+      "name": "Harbor Dash",
+      "type": "Dashboard",
+      "description": "A ready-to-use sales analytics dashboard built for SaaS products, e-commerce back offices, agencies, and internal tools.",
+      "tags": [
+        "Responsive",
+        "Fully Components",
+        "Customizable",
+        "Themes"
+      ],
+      "image": "assets/harbor-dash.png",
+      "href": "https://harbor.kevyworks.com",
+      "productLink": "https://contra.com/products/YgMnLR7V-harbor-dash"
+    },
+    {
+      "name": "PulseGrid",
+      "type": "Multi-purpose UI",
+      "description": "An expanded multi-page product experience built around reusable sections, responsive layouts and conversion-focused presentation.",
+      "tags": [
+        "Responsive",
+        "Components",
+        "Product",
+        "Dark & Lite"
+      ],
+      "image": "assets/pulsegrid.png",
+      "href": "https://pulsegrid-multi.kevyworks.com",
+      "productLink": "https://contra.com/products/Fr1d1cyr-pulsegrid-react-tailwind-saa-s-landing-template"
+    },
+    {
+      "name": "Nexa",
+      "type": "Website Template",
+      "description": "A modern visual direction for product and business websites, designed to translate cleanly from concept to production.",
+      "tags": [
+        "Figma",
+        "Frontend",
+        "UX"
+      ],
+      "image": "assets/nexa.png",
+      "href": "https://kevyworks.com/assets/nexa-full.webp",
+      "productLink": "https://contra.com/products/L151GcDa-nexa-responsive-marketing-landing-page-template"
+    },
+    {
+      "name": "SignalPath",
+      "type": "Product Concept",
+      "description": "A clean product-facing visual system for services, SaaS-style experiences and technical storytelling.",
+      "tags": [
+        "Design",
+        "Web",
+        "Systems"
+      ],
+      "image": "assets/signalpath.png",
+      "href": "https://kevyworks.com/assets/signalpath-full.webp",
+      "productLink": "https://contra.com/products/LbmMtWW3-signalpath-marketing-landing-page-template"
+    }
+  ],
+  "education": [
+    {
+      "period": "2001 — 2006",
+      "degree": "Bachelor's Degree in Computer Science",
+      "institution": "AMA Computer College",
+      "location": "Dumaguete City, Philippines"
+    }
+  ],
+  "workExperience": [
+    {
+      "period": "May 2025 — Jul 2026",
+      "role": "Full Stack Developer",
+      "company": "Seek Marketing Partners, Ltd.",
+      "location": "Remote · Bury, Greater Manchester, England",
+      "bullets": [
+        "Built and shipped React/Gatsby components and page templates from Figma designs through deployment.",
+        "Developed an in-house TypeScript/React analytics dashboard integrating third-party vendor APIs.",
+        "Diagnosed JSON-LD schema errors affecting analytics tracking and resolved recurring Git merge conflicts."
+      ]
+    },
+    {
+      "period": "Aug 2022 — Feb 2023",
+      "role": "Full Stack Developer",
+      "company": "Corporate Keys Group",
+      "location": "Remote · Sydney, New South Wales, Australia",
+      "bullets": [
+        "Integrated the Xero API into application workflows for automated report generation.",
+        "Engineered a WSL2 development environment mirroring production and authored the onboarding guide.",
+        "Troubleshot production issues in an on-call environment."
+      ]
+    },
+    {
+      "period": "Mar 2016 — Jul 2022",
+      "role": "Full Stack Software Engineer",
+      "company": "RED1 IT",
+      "location": "Remote · Florida, USA",
+      "bullets": [
+        "Enhanced the My Core Motivations platform using PHP, Laravel, REST APIs and AWS.",
+        "Implemented API integrations and CI pipelines supporting production feature delivery.",
+        "Worked across frontend, backend and infrastructure to resolve production issues end-to-end."
+      ]
+    },
+    {
+      "period": "Aug 2022 — Nov 2023",
+      "role": "Freelance Continuation — My Core Motivations",
+      "company": "RED1 IT",
+      "location": "Remote · Continued part-time alongside full-time role at Corporate Keys Group",
+      "bullets": [
+        "Refactored the API integration layer via CI/CD pipeline, eliminating 100% of identified redundant code paths and reducing deployment risk.",
+        "Hardened AWS production infrastructure against brute-force attacks by implementing UFW; established recurring log cleanup and database optimization routines.",
+        "Built a Trello API integration to streamline customer bug-report intake, triage, and prioritization."
+      ]
+    },
+    {
+      "period": "Mar 2023 — Jul 2023",
+      "role": "Product Development Engineer",
+      "company": "Channel Technologies, Inc.",
+      "location": "Remote · Makati, NCR, Philippines",
+      "bullets": [
+        "Spearheaded development of custom OpenCart themes and a bespoke back-office system supporting ID validation and QR code generation.",
+        "Developed database-driven functionality connecting client-facing interfaces with backend business processes using PHP and MySQL."
+      ]
+    },
+    {
+      "period": "Nov 2014 — Mar 2016",
+      "role": "Freelance WordPress Developer",
+      "company": "Top Rank Software",
+      "location": "Remote · Tampa / St. Petersburg, Florida, USA",
+      "bullets": [
+        "Delivered feature enhancements for a Bulgarian e-commerce platform through custom WordPress plugins.",
+        "Introduced Git-based source control practices to improve team code-management workflows."
+      ]
+    },
+    {
+      "period": "Apr 2009 — Nov 2014",
+      "role": "Software Engineer / Developer Roles",
+      "company": "Early Career",
+      "location": "On-site · Dumaguete City, Philippines",
+      "bullets": [
+        "Maintained in-house software frameworks and resolved client-submitted defects across backend and frontend components.",
+        "Built BitPOS, a point-of-sale system using C# and PHP integrated with FrontAccounting, plus an SMS-based platform for an e-loading business.",
+        "Developed the iTAX Water Billing System for a municipal client, managing database operations in Ingres and Sybase SQL Anywhere."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "title": "My Core Motivations",
+      "category": "Platform",
+      "description": "Interactive personality assessment and role-matching platform built with PHP/Laravel, REST APIs and AWS.",
+      "tech": ["Laravel", "PHP", "AWS", "REST API"],
+      "href": "https://mycoremotivations.com"
+    },
+    {
+      "title": "BitPOS",
+      "category": "Desktop / POS",
+      "description": "Point-of-sale system built with C# and PHP, integrated with FrontAccounting and designed around fast navigation.",
+      "tech": ["C#", "PHP", "MVVM", "FrontAccounting"],
+      "href": "https://livehelp4us.com/"
+    },
+    {
+      "title": "Civil Registrar Records",
+      "category": "Side Project",
+      "description": "Desktop records-management application with Node.js, a PHP API layer and Knockout.js, packaged with NW.js.",
+      "tech": ["Node.js", "PHP", "Knockout.js", "NW.js"]
+    },
+    {
+      "title": "QR ID Back Office",
+      "category": "Business System",
+      "description": "Custom OpenCart themes and a bespoke back-office system supporting ID validation and QR-code generation.",
+      "tech": ["PHP", "MySQL", "OpenCart", "QR"]
+    }
+  ]
+}
