@@ -16,7 +16,7 @@ export default function Navbar() {
       <div className="pt-4 container-x">
         <nav className="flex items-center justify-between px-4 py-3 shadow-2xl glass rounded-2xl shadow-black/20">
           <a href="#top" className="flex items-center gap-3" onClick={() => setOpen(false)}>
-	          <img src="assets/logo.png" className="grid object-contain w-8 h-8 p-1 bg-white rounded-full place-items-center" />
+	          <img alt="kevyworks logo" src="assets/logo.png" className="grid object-contain w-8 h-8 p-1 bg-white rounded-full place-items-center" />
             <span className="hidden text-sm font-semibold sg sm:block">Kevinralph Tenorio</span>
           </a>
 
