@@ -40,10 +40,13 @@ jobs:
         run: npm ci
       - name: Build
         run: npm run build
+      - name: Build Sitemap.xml
+        run: node scripts/generate-sitemap.mjs
       - name: Copy assets folder to dist
         run: |
           mkdir -p dist
           cp -r assets dist/
+          cp public/* dist/
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
