@@ -17,6 +17,7 @@ export default function Products() {
                 backgroundPosition: "center top",
                 backgroundSize: "cover",
               }}
+              title="Click to view Store / Product Details"
             >
               <div className="relative flex flex-col justify-between h-full">
                 <div className="flex items-center justify-between">
