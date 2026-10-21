@@ -1,4 +1,4 @@
-import { ExternalLink, Layers3, Sparkles } from "lucide-react";
+import { ExternalLink, Layers3, Sparkles, ShoppingBag, ArrowUpRight } from "lucide-react";
 import { products } from "../data/content";
 import SectionHeading from "./SectionHeading";
 
@@ -23,10 +23,11 @@ export default function Products() {
                   <span className="inline-flex border border-white/10 items-center gap-2 rounded-full bg-black/20 px-3 py-1.5 text-[11px] font-semibold uppercase tracking-wider text-zinc-300">
                     <Layers3 size={13} /> {product.type}
                   </span>
-                  {product.productLink && product.href &&
-                  <a href={product.href} rel="noreferrer" target="_blank" title="Preview" className="grid w-10 h-10 transition rounded-full place-items-center bg-white/5 group-hover:bg-white group-hover:text-zinc-950">
-                    <Sparkles size={17} className="transition text-zinc-500 group-hover:text-black" />
-                  </a>}
+                  {product.href &&
+                    <a href={product.href} rel="noreferrer" target="_blank" title="Preview/Details" className="grid w-10 h-10 transition rounded-full place-items-center bg-white/5 group-hover:bg-white group-hover:text-zinc-950">
+                      <Sparkles size={17} className="transition text-zinc-500 group-hover:text-black" />
+                    </a>
+                  }
                 </div>
                 <div>
                   <p className="text-xs font-semibold uppercase tracking-[.2em] text-zinc-500">Product 0{i + 1}</p>
@@ -35,6 +36,13 @@ export default function Products() {
                   <div className="flex flex-wrap gap-2 mt-5">
                     {product.tags.map(tag => <span key={tag} className="rounded-lg border border-white/10 bg-black/10 px-2.5 py-1 text-[11px] text-zinc-400">{tag}</span>)}
                   </div>
+                  {product.links && 
+                    <div className="flex gap-2">
+                    { product.links.map((link, li) => (
+                      <a key={li} href={link.href} rel="noreferrer" target="_blank" className="inline-flex items-center gap-2 mt-5 text-xs font-normal text-indigo-300">{link.label} <ArrowUpRight size={15} /></a>
+                    ))}
+                    </div>
+                  }
                 </div>
               </div>
             </a>
