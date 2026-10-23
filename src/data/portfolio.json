@@ -88,11 +88,11 @@
       "productLink": "https://www.teepublic.com/user/kevyworks",
       "links": [
         {
-          "label": "Light Version",
+          "label": "Light Colors",
           "href": "https://www.teepublic.com/t-shirt/100659462-better-days-are-ahead-vintage-mountain-sunset"
         },
         {
-          "label": "Dark Version",
+          "label": "Dark Colors",
           "href": "https://www.teepublic.com/t-shirt/100659461-better-days-are-ahead-vintage-mountain-sunset"
         }
       ]
@@ -110,8 +110,26 @@
       "productLink": "https://www.teepublic.com/user/kevyworks",
       "links": [
         {
-          "label": "Any Color Version",
+          "label": "See Versions",
           "href": "https://www.teepublic.com/t-shirt/100683902-zombie-drip"
+        }
+      ]
+    },
+    {
+      "name": "Zombie Coder - Tech Apocalypse",
+      "type": "Apparel Design",
+      "description": "Perfect for IT professionals, horror fans, and anyone who's had to debug code with a calculator on a zombie",
+      "tags": [
+        "Canva",
+        "Design",
+        "T-Shirt"
+      ],
+      "image": "assets/zoombie-coder.jpg",
+      "productLink": "https://www.teepublic.com/user/kevyworks",
+      "links": [
+        {
+          "label": "See Versions",
+          "href": "https://www.teepublic.com/t-shirt/100761093-zombie-coder-tech-apocalypse"
         }
       ]
     }
