@@ -13,7 +13,7 @@ export default function Footer() {
           <div className="flex gap-2">
             <a aria-label="LinkedIn" className="p-3 btn-ghost" href="https://linkedin.com/in/kevyworks" target="_blank" rel="noreferrer"><Linkedin size={17} /></a>
             <a aria-label="GitHub" className="p-3 btn-ghost" href="https://github.com/kevyworks" target="_blank" rel="noreferrer"><Github size={17} /></a>
-            <a aria-label="Contra" className="p-3 btn-ghost" href="https://contra.com/kevinralph_tenorio_8dcq2rma?referralExperimentNid=DEFAULT_REFERRAL_PROGRAM&referrerUsername=kevyworks" target="_blank" rel="noreferrer"><ShoppingBag size={17} /></a>
+            <a aria-label="Store" className="p-3 btn-ghost" href="https://www.teepublic.com/user/kevyworks" target="_blank" rel="noreferrer"><ShoppingBag size={17} /></a>
             <a className="btn-primary" href="https://kevyworks.com" target="_blank" rel="noreferrer">Kevyworks <ArrowUpRight size={15} /></a>
           </div>
         </div>
