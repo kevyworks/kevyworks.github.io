@@ -50,9 +50,14 @@ export default function Products() {
           ))}
         </div>
 
+        <div className="flex items-center justify-center gap-2 mt-10 text-center gap-x-10">
+          <a href="https://contra.com/kevyworks/products?r=kevyworks" rel="noreferrer" target="_blank" className="inline-flex items-center gap-2 mt-5 text-xs font-normal text-indigo-300">More Templates <ArrowUpRight size={15} /></a>
+          <a href="https://www.teepublic.com/user/kevyworks" rel="noreferrer" target="_blank" className="inline-flex items-center gap-2 mt-5 text-xs font-normal text-indigo-300">More T-Shirt Designs <ArrowUpRight size={15} /></a>
+        </div>
+
         <div className="py-3 mt-10 overflow-hidden border rounded-2xl border-white/10 bg-black/20">
-          <div className="flex w-max animate-marquee gap-8 whitespace-nowrap text-xs font-semibold uppercase tracking-[.18em] text-zinc-600">
-            {["React", "Tailwind", "Figma to Code", "Laravel", "WordPress", "API Integration", "Responsive UI", "Performance", "React", "Tailwind", "Figma to Code", "Laravel", "WordPress", "API Integration", "Responsive UI", "Performance"].map((x, i) => <span key={i}>✦ {x}</span>)}
+          <div className="flex w-max animate-marquee gap-8 whitespace-nowrap text-xs font-semibold uppercase tracking-[.20em] text-zinc-600">
+            {["React", "Tailwind", "Figma to Code", "Laravel", "WordPress", "API Integration", "Responsive UI", "Performance", "React", "Tailwind", "Figma to Code", "Laravel", "WordPress", "API Integration", "Responsive UI", "Performance"].map((x, i) => <span key={i}>{x}</span>)}
           </div>
         </div>
       </div>
