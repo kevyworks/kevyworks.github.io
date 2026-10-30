@@ -1,12 +1,17 @@
 import { ExternalLink, Layers3, Sparkles, ShoppingBag, ArrowUpRight } from "lucide-react";
 import { products } from "../data/content";
 import SectionHeading from "./SectionHeading";
+import BuyMeACoffeeButton from "./Buymeacoffee";
 
 export default function Products() {
   return (
     <section id="products" className="border-y border-white/5 bg-white/[.018] py-24 sm:py-32">
       <div className="container-x">
         <SectionHeading eyebrow="Product space · Kevyworks" title="A home for things I design, build and ship." text="A dedicated product shelf for templates, UI experiments and reusable digital products — separate from client work." />
+
+        <div className="flex items-center justify-start gap-2 mt-10 text-center gap-x-10">
+          <BuyMeACoffeeButton height={50} width={187} />
+        </div>
 
         <div className="grid gap-5 mt-12 lg:grid-cols-2">
           {products.map((product, i) => (
