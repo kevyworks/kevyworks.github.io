@@ -1,4 +1,5 @@
 import { ArrowDown, ArrowUpRight, Code2, Sparkles } from "lucide-react";
+import portfolio from "../data/portfolio.json";
 
 export default function Hero() {
   return (
@@ -19,9 +20,10 @@ export default function Hero() {
             cloud infrastructure, deployment and ongoing maintenance.
           </p>
 
-          <div className="flex flex-wrap gap-3 mt-9">
+          <div className="flex flex-col gap-3 md:flex-row md:flex-wrap mt-9">
             <a href="#work" className="btn-primary">Explore my work <ArrowDown size={16} /></a>
             <a href="mailto:kevyworks@gmail.com" className="btn-ghost">Start a project <ArrowUpRight size={16} /></a>
+            <a href={portfolio.introVideo} target="_blank" rel="noreferrer" className="btn-ghost">Loom video <ArrowUpRight size={16} /></a>
           </div>
 
           <div className="flex flex-wrap mt-10 text-xs font-medium gap-x-6 gap-y-3 text-zinc-500">
