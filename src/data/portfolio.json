@@ -246,6 +246,13 @@
       "category": "Business System",
       "description": "Custom OpenCart themes and a bespoke back-office system supporting ID validation and QR-code generation.",
       "tech": ["PHP", "MySQL", "OpenCart", "QR"]
+    },
+    {
+      "title": "Dumaguete City Tourism",
+      "category": "Showcase",
+      "description": "This is a showcase of my hometown, Dumaguete City, Philippines, built with React and Tailwind CSS.",
+      "tech": ["React", "Tailwind CSS"],
+      "href": "https://dumaguete.kevyworks.com/"
     }
   ]
 }
